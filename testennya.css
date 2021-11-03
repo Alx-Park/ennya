@@ -87,7 +87,7 @@ div.Ssylki-anime-v-1_custom1:hover .Fon1 {
   z-index: -1;
 }
 
-.Ssylki-anime-v-1_custom1 .Text-dno-ramka {
+.Ssylki-anime-v-1_custom1 .Text-dno-ramka1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -113,7 +113,7 @@ div.Ssylki-anime-v-1_custom1:hover .Fon1 {
   padding: 59% 0.15rem 0;
   border-radius: 0.25rem;
 }
-.Ssylki-anime-v-1_custom1 .b-link {
+.Ssylki-anime-v-1_custom1 .b-link1 {
   position: absolute;
   display: flex;
   top: 0;
@@ -131,22 +131,22 @@ div.Ssylki-anime-v-1_custom1:hover .Fon1 {
   -webkit-transition: opacity 0.4s ease;
 }
 @media screen and (min-width: 50px) {
-  .Ssylki-anime-v-1_custom {
+  .Ssylki-anime-v-1_custom1 {
     width: calc(100% / 2.3 - 1 * 1%);
   }
 }
 @media screen and (min-width: 600px) {
-  .Ssylki-anime-v-1_custom {
+  .Ssylki-anime-v-1_custom1 {
     width: calc(100% / 3.3 - 1 * 1%);
   }
 }
 @media screen and (min-width: 800px) {
-  .Ssylki-anime-v-1_custom {
+  .Ssylki-anime-v-1_custom1 {
     width: calc(100% / 4.3 - 1 * 1%);
   }
 }
 @media screen and (min-width: 1200px) {
-  .Ssylki-anime-v-1_custom {
+  .Ssylki-anime-v-1_custom1 {
     width: calc(100% / 5.3 - 1 * 1%);
     margin: 5px 0.37% 3.5rem 0.37%;
   }
