@@ -40,7 +40,7 @@
   box-shadow: inset 0 0 15px 5px rgb(0 0 0 / 50%);
 }
 
-.Ssylki-anime-v-1_custom1 .Fon1 {
+.Ssylki-anime-v-1_custom1 .Fon {
   position: absolute;
   display: grid;
   justify-content: center;
@@ -69,10 +69,10 @@
   transition: opacity 0.4s ease, filter 0.4s ease, box-shadow 0.4s ease;
 }
 
-div.Ssylki-anime-v-1_custom1:hover .Fon1 {
+div.Ssylki-anime-v-1_custom1:hover .Fon {
   opacity: 1;
 }
-.Ssylki-anime-v-1_custom1 .Fon1::after {
+.Ssylki-anime-v-1_custom1 .Fon::after {
   position: absolute;
   content: "";
   background-image: url("https://i.yapx.ru/O4X0G.jpg");
@@ -87,7 +87,7 @@ div.Ssylki-anime-v-1_custom1:hover .Fon1 {
   z-index: -1;
 }
 
-.Ssylki-anime-v-1_custom1 .Text-dno-ramka1 {
+.Ssylki-anime-v-1_custom1 .Text-dno-ramka {
   position: absolute;
   top: 0;
   left: 0;
@@ -113,7 +113,7 @@ div.Ssylki-anime-v-1_custom1:hover .Fon1 {
   padding: 59% 0.15rem 0;
   border-radius: 0.25rem;
 }
-.Ssylki-anime-v-1_custom1 .b-link1 {
+.Ssylki-anime-v-1_custom1 .b-link {
   position: absolute;
   display: flex;
   top: 0;
@@ -152,26 +152,9 @@ div.Ssylki-anime-v-1_custom1:hover .Fon1 {
   }
 }
 
-/* --------------------------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Ssylki-anime-v-1 > strong > a[href*="/animes/xxxxxx"]::before {
+  background-image: url("xxxxxx");
+}
+.Ssylki-anime-v-1_custom1 > strong > a[href*="/animes/40748-jujutsu-kaisen-tv"]::before {
+  background-image: url("https://images8.alphacoders.com/114/thumb-1920-1141570.png");
+}
