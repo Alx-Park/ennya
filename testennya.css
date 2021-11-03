@@ -1,3 +1,4 @@
+.css {
 .Ssylki-anime-v-1-blok-1_custom1 {
   position: relative;
   margin: 0;
@@ -20,6 +21,7 @@
   padding-bottom: 60%;
   overflow: hidden;
 }
+
 
 .Ssylki-anime-v-1_custom1 > strong > a::before {
   content: "";
@@ -151,10 +153,4 @@ div.Ssylki-anime-v-1_custom1:hover .Fon {
     margin: 5px 0.37% 3.5rem 0.37%;
   }
 }
-
-.Ssylki-anime-v-1 > strong > a[href*="/animes/xxxxxx"]::before {
-  background-image: url("xxxxxx");
-}
-.Ssylki-anime-v-1_custom1 > strong > a[href*="/animes/40748-jujutsu-kaisen-tv"]::before {
-  background-image: url("https://images8.alphacoders.com/114/thumb-1920-1141570.png");
 }
