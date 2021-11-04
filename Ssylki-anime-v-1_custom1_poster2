@@ -22,7 +22,6 @@
   overflow: hidden;
 }
 
-
 .Ssylki-anime-v-1_custom2 > strong > a::before {
   content: "";
   position: absolute;
