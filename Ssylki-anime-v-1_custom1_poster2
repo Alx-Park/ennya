@@ -75,7 +75,7 @@
 div.Ssylki-anime-v-1_custom2:hover .Fon {
   opacity: 1;
 }
-.Ssylki-anime-v-1_custom1 .Fon::after {
+.Ssylki-anime-v-1_custom2 .Fon::after {
   position: absolute;
   content: "";
   background-image: url("https://i.yapx.ru/O4X0G.jpg");
