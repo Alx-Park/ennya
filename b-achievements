@@ -1,0 +1,43 @@
+@media screen and (min-width: 1025px) {
+  #profiles_show .b-achievement.is-badge .c-image {
+    padding-top: 100%;
+  }
+  #profiles_show .b-achievement.is-badge .c-image,
+  #profiles_show .b-achievement .c-image .inner a img,
+  #profiles_show .b-achievement .c-image .inner a .no-image,
+  #profiles_show .b-achievement .c-image .inner a .border,
+  #profiles_show .b-achievement .c-image .inner,
+  #profiles_show .achievements .cc-achievements .b-achievement,
+  #profiles_show .b-achievement > .c-image > .inner:after {
+    border-radius: 16rem;
+    overflow: hidden;
+  }
+  #profiles_show .b-achievement .c-image .inner {
+    transform: scale(1.009);
+  }
+  #profiles_show .b-achievement .c-image .inner a img,
+  #profiles_show .b-achievement .c-image .inner a .no-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  #profiles_show .achievements .cc-achievements .b-achievement {
+    padding: 2px;
+    border: 2px solid rgba(var(--block-color), 0.6);
+  }
+  
+  #profiles_show .b-achievement.is-badge:hover:before {
+    border-radius: 16rem;
+    padding-top: 0.25rem;
+  }
+  
+  #profiles_show .b-achievement.is-badge::before {
+    top: 0;
+    height: 100%;
+    padding: 1.5rem 0.5rem 0;
+    line-height: 1.25;
+    font-size: 1em;
+    border-radius: 16rem;
+    transition: 0s, padding 0.4s, opacity 0.4s;
+  }
